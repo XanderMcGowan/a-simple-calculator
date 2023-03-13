@@ -1,0 +1,102 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color:  rgb( 51, 84, 84);
+}
+
+.calculator {
+  background-color: rgb(211, 211, 211);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.screen {
+  width: 224px;
+  background-color: rgb(176, 205, 176);
+  font-size: 40px;
+  text-align: end;
+  padding: 4px;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px;
+}
+
+
+.buttons {
+  width: 240px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+button {
+  align-items: center;
+  appearance: none;
+  background-color: #FCFCFD;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395A;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 40px;
+}
+
+button:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+button:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+button:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+#dummy {
+  height: 48px;
+  width: 55px;
+}
+
+#equals {
+  width: 100%;
+  background-color: rgb(218, 2, 2);
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,rgb(199, 2, 2)0 -3px 0 inset;
+  margin-bottom: 5px;
+}
+
+#equals:hover {
+  background-color: rgb(198, 1, 1);
+}
+
+#clear {
+  width: 100%;
+  background-color: rgb(252, 226, 27);
+  font-size: 30px;
+  box-shadow:  rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,rgb(221, 198, 24)0 -3px 0 inset;;
+}
+
+#clear:hover {
+  background-color: rgb(252, 201, 17);
+}
