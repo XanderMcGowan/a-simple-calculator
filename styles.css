@@ -26,7 +26,9 @@ p {
 }
 
 .calculator {
-  background-color: rgb(211, 211, 211);
+  /* background-color: rgb(211, 211, 211); */
+  background-image: url(./31I05-tlwdL._AC_\ -\ Copy\ \(2\).jpg);
+  background-size: cover;
   padding: 20px;
   border-radius: 10px;
   box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px;
@@ -34,7 +36,10 @@ p {
 
 .screen {
   width: 224px;
-  background-color: rgb(109, 150, 197);
+  /* background-color: rgb(193, 215, 240); */
+  background-image: url(./31I05-tlwdL._AC_\ -\ Copy.jpg);
+  background-size: cover;
+  color: #36395A;
   font-family: "JetBrains Mono",monospace;
   font-size: 35px;
   text-align: end;
@@ -54,7 +59,8 @@ p {
 button {
   align-items: center;
   appearance: none;
-  background-color: #FCFCFD;
+  /* background-color: #FCFCFD; */
+  background-image: url(./31I05-tlwdL._AC_.jpg);
   border-radius: 4px;
   border-width: 0;
   box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
