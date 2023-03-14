@@ -6,6 +6,17 @@ body {
   background-color:  rgb(146, 191, 244);
 }
 
+h1 {
+  position: absolute;
+  top: 5vh;
+  font-family: "JetBrains Mono",monospace;
+  font-size: 32px;
+  color: rgb(201, 226, 255);
+  /* text-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px; */
+}
+
+
+
 p {
   display: none;
 }
@@ -24,9 +35,11 @@ p {
 .screen {
   width: 224px;
   background-color: rgb(109, 150, 197);
-  font-size: 40px;
+  font-family: "JetBrains Mono",monospace;
+  font-size: 35px;
   text-align: end;
   padding: 4px;
+  text-shadow: rgba(47, 39, 66, 0.4) 0 2px 4px;
   box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px;
 }
 
@@ -85,7 +98,7 @@ button:active {
 
 #dummy {
   height: 48px;
-  width: 55px;
+  width: 56px;
 }
 
 #equals {
