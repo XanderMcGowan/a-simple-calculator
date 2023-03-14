@@ -13,15 +13,15 @@ function calculate (button) {
     screenDisplay.textContent = '.'
     document.getElementById("clicks").innerHTML = null;
     clicks = null
-  } else if (value === "=") {
-    screenDisplay.textContent = eval(accumulativeCalculation) 
-  } else {
+    } else if (value === "=") {
+     screenDisplay.textContent = eval(accumulativeCalculation)
+    } else {
     calculation.push(value)
     accumulativeCalculation = calculation.join('')
     screenDisplay.textContent = accumulativeCalculation
   }
 
-onClick () 
+  onClick()
 
 }
 
@@ -29,7 +29,7 @@ onClick ()
 function onClick() {
   clicks += 1;
   document.getElementById("clicks").innerHTML = clicks;
-  if (clicks >= 11) {
+  if (clicks >= 12 || calculation.length >= 12) {
     screenDisplay.textContent = 'ERROR'
   }
 };
