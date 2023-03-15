@@ -10,11 +10,13 @@ function calculate (button) {
   const value = button.textContent
   if (value == "CLEAR") {
     calculation = []
-    screenDisplay.textContent = '.'
+    screenDisplay.textContent = '...0-0....'
     document.getElementById("clicks").innerHTML = null;
     clicks = null
     } else if (value === "=") {
      screenDisplay.textContent = eval(accumulativeCalculation)
+     calculation = []
+     clicks = null
     } else {
     calculation.push(value)
     accumulativeCalculation = calculation.join('')
